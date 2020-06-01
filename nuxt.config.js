@@ -1,3 +1,4 @@
+const nuxtI18n = require('./config/i18n.js')
 
 module.exports = {
   mode: 'universal',
@@ -47,7 +48,8 @@ module.exports = {
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
     '@nuxtjs/dotenv',
-    '@nuxtjs/style-resources'
+    '@nuxtjs/style-resources',
+    ['nuxt-i18n', nuxtI18n]
   ],
   /*
   ** Axios module configuration
