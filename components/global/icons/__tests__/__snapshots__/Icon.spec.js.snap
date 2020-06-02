@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Elements: Icon snapshots matches default snapshot 1`] = `"<div class=\\"iconWrapper iconWrapper--medium\\"></div>"`;
+
+exports[`Elements: Icon snapshots matches snapshot when size === large 1`] = `"<div class=\\"iconWrapper iconWrapper--large\\"></div>"`;
+
+exports[`Elements: Icon snapshots matches snapshot when size === medium 1`] = `"<div class=\\"iconWrapper iconWrapper--medium\\"></div>"`;
+
+exports[`Elements: Icon snapshots matches snapshot when size === small 1`] = `"<div class=\\"iconWrapper iconWrapper--small\\"></div>"`;
+
+exports[`Elements: Icon snapshots matches snapshot when size === xlarge 1`] = `"<div class=\\"iconWrapper iconWrapper--xlarge\\"></div>"`;
+
+exports[`Elements: Icon snapshots matches snapshot when size === xsmall 1`] = `"<div class=\\"iconWrapper iconWrapper--xsmall\\"></div>"`;
+
+exports[`Elements: Icon snapshots matches snapshot when size === xxlarge 1`] = `"<div class=\\"iconWrapper iconWrapper--xxlarge\\"></div>"`;
+
+exports[`Elements: Icon snapshots matches snapshot when size === xxsmall 1`] = `"<div class=\\"iconWrapper iconWrapper--xxsmall\\"></div>"`;
