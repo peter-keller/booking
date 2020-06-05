@@ -26,7 +26,7 @@ module.exports = {
   */
   css: [
     { src: 'vue-material/dist/vue-material.min.css', lang: 'css' },
-    { src: '~/assets/theme.scss', lang: 'scss' } // include vue-material theme engine
+    { src: '~/assets/scss/theme.scss', lang: 'scss' } // include vue-material theme engine
   ],
   /*
   ** Plugins to load before mounting the App
@@ -49,7 +49,8 @@ module.exports = {
     '@nuxtjs/pwa',
     '@nuxtjs/dotenv',
     '@nuxtjs/style-resources',
-    ['nuxt-i18n', nuxtI18n]
+    ['nuxt-i18n', nuxtI18n],
+    '@nuxtjs/svg'
   ],
   /*
   ** Axios module configuration
