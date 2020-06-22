@@ -61,7 +61,9 @@ module.exports = {
   ** Global style import
   */
   styleResources: {
-    scss: []
+    scss: [
+      'assets/scss/base.scss'
+    ]
   },
   /*
   ** Build configuration
