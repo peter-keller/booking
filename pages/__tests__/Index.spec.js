@@ -1,9 +1,9 @@
 import { shallowMount } from '@vue/test-utils'
 
-import Navbar from '..'
+import Homepage from '..'
 
-describe('Component: Navbar', () => {
-  const factory = (opts = {}) => shallowMount(Navbar, {
+describe('Page: Homepage', () => {
+  const factory = (opts = {}) => shallowMount(Homepage, {
     ...opts
   })
 

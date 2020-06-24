@@ -1,10 +1,5 @@
 <template>
-  <div class="container">
-    <MdButton class="md-primary">
-      {{ $t('EXAMPLE') }}
-    </MdButton>
-    <p>hello</p>
-  </div>
+  <div class="container" />
 </template>
 
 <script>

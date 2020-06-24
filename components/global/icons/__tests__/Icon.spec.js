@@ -53,4 +53,16 @@ describe('Elements: Icon', () => {
 
     expect(wrapper.emitted('click')).toBeFalsy()
   })
+
+  describe('#Svg', () => {
+    it('returns empty string when no icons match', () => {
+      const wrapper = factory({
+        propsData: {
+          name: 'asasd'
+        }
+      })
+
+      expect(wrapper.vm.svg).toBe('')
+    })
+  })
 })

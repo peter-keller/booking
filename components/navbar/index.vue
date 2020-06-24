@@ -6,7 +6,7 @@
           <Icon name="Logo" />
         </nuxt-link>
         <div class="navbar__user">
-          <p>hola</p>
+          <UserGreeting />
         </div>
       </div>
       <div class="navbar__search">
@@ -21,12 +21,14 @@
 
 <script>
 import Icon from '~/components/global/icons'
+import UserGreeting from '~/components/user-greeting'
 
 export default {
   name: 'Navbar',
 
   components: {
-    Icon
+    Icon,
+    UserGreeting
   }
 }
 </script>
@@ -45,6 +47,7 @@ export default {
     &__top {
       display: flex;
       justify-content: space-between;
+      align-items: center;
       width: 100%;
 
       @include tablet {
