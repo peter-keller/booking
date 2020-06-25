@@ -14,6 +14,8 @@ import icons from './icons'
 import IconSize from './size'
 
 export default {
+  name: 'Icon',
+
   props: {
     /**
     * The name of the icon to display.

@@ -1,3 +1,4 @@
+/* istanbul ignore file */
 export default {
   XXLarge: 'xxlarge',
   XLarge: 'xlarge',

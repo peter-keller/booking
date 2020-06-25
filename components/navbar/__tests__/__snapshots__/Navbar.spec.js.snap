@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Navbar matches snapshot 1`] = `
+"<div class=\\"navbar\\">
+  <div class=\\"navbar__inner\\">
+    <div class=\\"navbar__top\\">
+      <nuxt-link-stub to=\\"/\\">
+        <icon-stub name=\\"Logo\\" size=\\"medium\\" stroke=\\"\\"></icon-stub>
+      </nuxt-link-stub>
+      <div class=\\"navbar__user\\">
+        <usergreeting-stub></usergreeting-stub>
+      </div>
+    </div>
+    <div class=\\"navbar__search\\"><input type=\\"text\\" placeholder=\\"HOMEPAGE_SEARCH_PLACEHOLDER\\"></div>
+    <nuxt-link-stub to=\\"/\\"><img src=\\"../../assets/images/azam.jpg\\" class=\\"navbar__img\\"></nuxt-link-stub>
+  </div>
+</div>"
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: UserGreeting matches snapshot 1`] = `
+"<div class=\\"user-greeting\\">
+  <div class=\\"user-greeting__message\\">
+    <h3>HOMEPAGE_WELCOME_MESSAGE</h3>
+    <p>Patryk</p>
+  </div>
+  <icon-stub name=\\"ArrowDown\\" size=\\"medium\\" stroke=\\"\\" clickable=\\"true\\"></icon-stub>
+</div>"
+`;
