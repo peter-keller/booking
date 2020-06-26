@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Sidebar matches snapshot 1`] = `
+"<div class=\\"sidebar\\">
+  <!---->
+  <transition-stub enterclass=\\"sidebar--enter\\" leavetoclass=\\"sidebar--leave-to\\" enteractiveclass=\\"sidebar--enter-active\\" leaveactiveclass=\\"sidebar--leave-active\\">
+    <!---->
+  </transition-stub>
+</div>"
+`;
+
+exports[`Component: Sidebar matches snapshot when open 1`] = `
+"<div class=\\"sidebar\\">
+  <!---->
+  <transition-stub enterclass=\\"sidebar--enter\\" leavetoclass=\\"sidebar--leave-to\\" enteractiveclass=\\"sidebar--enter-active\\" leaveactiveclass=\\"sidebar--leave-active\\">
+    <!---->
+  </transition-stub>
+</div>"
+`;
+
+exports[`Component: Sidebar matches snapshot with slots passed in 1`] = `
+"<div class=\\"sidebar\\">
+  <div class=\\"sidebar__backdrop\\"></div>
+  <transition-stub enterclass=\\"sidebar--enter\\" leavetoclass=\\"sidebar--leave-to\\" enteractiveclass=\\"sidebar--enter-active\\" leaveactiveclass=\\"sidebar--leave-active\\">
+    <div class=\\"sidebar__panel\\">
+      <div class=\\"sidebar__close\\">
+        <icon-stub name=\\"close\\" size=\\"medium\\" stroke=\\"\\" clickable=\\"true\\"></icon-stub>
+      </div>
+      <div>Test slot</div>
+    </div>
+  </transition-stub>
+</div>"
+`;
