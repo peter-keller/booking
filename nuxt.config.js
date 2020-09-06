@@ -24,16 +24,11 @@ module.exports = {
   /*
   ** Global CSS
   */
-  css: [
-    { src: 'vue-material/dist/vue-material.min.css', lang: 'css' },
-    { src: '~/assets/scss/theme.scss', lang: 'scss' } // include vue-material theme engine
-  ],
+  css: [],
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [
-    '~/plugins/vue-material'
-  ],
+  plugins: [],
   /*
   ** Nuxt.js dev-modules
   */
