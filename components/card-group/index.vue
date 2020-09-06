@@ -5,7 +5,7 @@
     <!-- <li v-if="!hasCards" class="card-grid-empty">
       <slot name="empty" />
     </li> -->
-    <li v-for="card in cards" :key="card" :class="columnClass">
+    <li v-for="card in cards" :key="card.id" :class="columnClass">
       <slot :card="card" />
     </li>
   </ul>
@@ -30,7 +30,7 @@ export default {
     },
 
     columns: {
-      type: String,
+      type: Number,
       default: COLUMN_CLASSES.fluid
     }
   },

@@ -2,13 +2,16 @@
   <nuxt-link :to="link">
     <div class="card">
       <img :src="image">
-      <div>
-        <div class="card__content">
-          <h3>{{ name }}</h3>
+      <div class="card__content">
+        <h3>{{ name }}</h3>
+        <div class="card__rating">
           <Icon class="card__content--icon" name="Star" />
           <Rating :rating="rating" />
         </div>
-        <p class="card__distance">{{ $t('CARD_DISTANCE', { number: distance }) }}</p>
+        <div class="card__break" />
+        <p class="card__distance">
+          {{ $t('CARD_DISTANCE', { number: distance }) }}
+        </p>
       </div>
     </div>
   </nuxt-link>
@@ -27,30 +30,27 @@ export default {
   props: {
     image: {
       type: String,
-      default: 'https://www.dailydot.com/wp-content/uploads/2018/07/sasha-grey.jpg'
+      required: true
     },
 
     link: {
       type: String,
-      default: ''
+      required: true
     },
 
     rating: {
       type: Number,
-      required: true,
-      default: 0
+      required: true
     },
 
     name: {
       type: String,
-      required: true,
-      default: 'Amanda'
+      required: true
     },
 
     distance: {
       type: Number,
-      required: true,
-      default: 0.5
+      required: true
     }
   }
 }
@@ -65,7 +65,6 @@ export default {
   .card {
     text-decoration: none;
     margin-bottom: $space-080;
-    font-family: int;
 
     img {
       width: 100%;
@@ -74,16 +73,28 @@ export default {
 
     &__content {
       display: flex;
-      align-items: center;
+      flex-direction: column;
+      flex-wrap: wrap;
       margin: $space-030 0;
+
+      @include tablet {
+        flex-direction: row;
+      }
 
       &--icon {
         margin: 0 $space-020;
       }
+    }
 
-      h3 {
-
+    &__break {
+      @include tablet {
+        flex-basis: 100%;
+        height: 0;
       }
+    }
+
+    &__rating {
+      display: flex;
     }
 
     &__distance {
@@ -91,51 +102,4 @@ export default {
       line-height: 12px;
     }
   }
-
-  // .perks-card {
-  //   text-align: center;
-  //   margin-bottom: 3rem;
-  //   cursor: pointer;
-
-  //   &.background-image {
-  //     display: flex;
-  //     position: relative;
-  //     justify-content: center;
-  //     min-height: 30em;
-  //     background-position: center center;
-  //     background-size: cover;
-  //     color: white;
-  //     border-radius: 2px;
-
-  //     &:after {
-  //       position: absolute;
-  //       background-color: black;
-  //       border-radius: 2px;
-  //       content: "";
-  //       top: 0;
-  //       left: 0;
-  //       width: 100%;
-  //       height: 100%;
-  //       opacity: .5;
-  //     }
-
-  //     .content {
-  //       align-self: flex-end;
-  //       align-items: center;
-  //       margin-bottom: 3em;
-  //       padding: 0 1em;
-  //       z-index: 100;
-
-  //       * {
-  //         color: white;
-  //       }
-
-  //       h4 {
-  //         // @include font('050');
-  //         color: $color-white;
-  //         margin: .6em 0;
-  //       }
-  //     }
-  //   }
-  // }
 </style>
