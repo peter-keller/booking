@@ -1,4 +1,4 @@
-module.exports = {
+const nuxtI18n = {
   locales: [
     {
       code: 'en-GB',
@@ -64,3 +64,5 @@ module.exports = {
     }
   }
 }
+
+export default nuxtI18n

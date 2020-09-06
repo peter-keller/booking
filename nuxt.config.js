@@ -1,5 +1,3 @@
-const nuxtI18n = require('./config/i18n.js')
-
 module.exports = {
   mode: 'universal',
   /*
@@ -49,7 +47,18 @@ module.exports = {
     '@nuxtjs/pwa',
     '@nuxtjs/dotenv',
     '@nuxtjs/style-resources',
-    ['nuxt-i18n', nuxtI18n],
+    ['nuxt-i18n', {
+      locales: [
+        {
+          code: 'en-GB',
+          iso: 'en-GB',
+          file: 'en.json'
+        }
+      ],
+      lazy: true,
+      langDir: 'locales/',
+      defaultLocale: 'en-GB'
+    }],
     '@nuxtjs/svg'
   ],
   /*
