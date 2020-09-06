@@ -5,7 +5,7 @@ exports[`Component: Navbar matches snapshot 1`] = `
   <div class=\\"navbar__inner\\">
     <div class=\\"navbar__top\\">
       <nuxt-link-stub to=\\"/\\">
-        <icon-stub name=\\"Logo\\" size=\\"medium\\" stroke=\\"\\"></icon-stub>
+        <icon-stub name=\\"Logo\\" size=\\"medium\\" stroke=\\"\\" class=\\"navbar__icon\\"></icon-stub>
       </nuxt-link-stub>
       <div class=\\"navbar__user\\">
         <usergreeting-stub></usergreeting-stub>

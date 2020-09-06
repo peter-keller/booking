@@ -3,7 +3,7 @@
     <div class="navbar__inner">
       <div class="navbar__top">
         <nuxt-link to="/">
-          <Icon name="Logo" />
+          <Icon name="Logo" class="navbar__icon" />
         </nuxt-link>
         <div class="navbar__user">
           <UserGreeting />
@@ -83,6 +83,10 @@ export default {
       @include tablet {
         display: block;
       }
+    }
+
+    &__icon {
+      width: unset;
     }
 
     &__search {
