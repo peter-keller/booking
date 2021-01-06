@@ -1,4 +1,4 @@
-# azams-mom
+# booking
 
 > My wonderful Nuxt.js project
 
