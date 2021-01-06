@@ -3,7 +3,7 @@
     <div class="navbar__inner">
       <div class="navbar__top">
         <nuxt-link to="/">
-          <Icon name="Logo" />
+          <Icon name="Logo" class="navbar__icon" />
         </nuxt-link>
         <div class="navbar__user">
           <UserGreeting />
@@ -85,8 +85,14 @@ export default {
       }
     }
 
+    &__icon {
+      width: unset;
+    }
+
     &__search {
       width: 100%;
+      display: flex;
+      justify-content: center;
 
       @include tablet {
         width: 33%;
@@ -97,10 +103,14 @@ export default {
         border: none;
         background-color: $color-gray-1;
         height: $space-100;
-        padding: $space-050;
+        padding: 0 $space-050;
 
         ::placeholder {
           color: $color-gray-3;
+        }
+
+        @include tablet {
+          padding: $space-050;
         }
       }
     }

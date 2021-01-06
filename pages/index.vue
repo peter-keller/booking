@@ -1,15 +1,11 @@
 <template>
-  <div class="container" />
+  <h1>Homepage</h1>
 </template>
 
 <script>
+
 export default {}
 </script>
 
 <style lang="scss">
-.container {
-  p {
-    @include font($font-120)
-  }
-}
 </style>

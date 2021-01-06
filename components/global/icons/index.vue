@@ -119,38 +119,38 @@ export default {
     }
 
     &--xxsmall {
-      width: rem-calc($space-030);
-      height: rem-calc($space-030);
+      width: $space-030;
+      height: $space-030;
     }
 
     &--xsmall {
-      width: rem-calc($space-040);
-      height: rem-calc($space-040);
+      width: $space-040;
+      height: $space-040;
     }
 
     &--small {
-      width: rem-calc($space-050);
-      height: rem-calc($space-050);
+      width: $space-050;
+      height: $space-050;
     }
 
     &--medium {
-      width: rem-calc($space-060);
-      height: rem-calc($space-060);
+      width: $space-060;
+      height: $space-060;
     }
 
     &--large {
-      width: rem-calc($space-070);
-      height: rem-calc($space-070);
+      width: $space-070;
+      height: $space-070;
     }
 
     &--xlarge {
-      width: rem-calc($space-080);
-      height: rem-calc($space-080);
+      width: $space-080;
+      height: $space-080;
     }
 
     &--xxlarge {
-      width: rem-calc($space-090);
-      height: rem-calc($space-090);
+      width: $space-090;
+      height: $space-090;
     }
 
     svg {
