@@ -14,12 +14,6 @@ export default {
       type: Number,
       required: true
     }
-  },
-
-  computed: {
-    ehh () {
-      return ''
-    }
   }
 }
 </script>

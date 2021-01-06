@@ -23,45 +23,6 @@ export default {
   components: {
     Card,
     CardGroup
-  },
-
-  data () {
-    return {
-      cards: [
-        {
-          image: 'https://www.dailydot.com/wp-content/uploads/2018/07/sasha-grey.jpg',
-          link: '/',
-          name: 'Sasha',
-          rating: 5,
-          distance: 0.5,
-          id: 1
-        },
-        {
-          image: 'https://www.dailydot.com/wp-content/uploads/2018/07/sasha-grey.jpg',
-          link: '/',
-          name: 'Sasha',
-          rating: 5,
-          distance: 0.5,
-          id: 2
-        },
-        {
-          image: 'https://www.dailydot.com/wp-content/uploads/2018/07/sasha-grey.jpg',
-          link: '/',
-          name: 'Sasha',
-          rating: 5,
-          distance: 0.5,
-          id: 3
-        },
-        {
-          image: 'https://www.dailydot.com/wp-content/uploads/2018/07/sasha-grey.jpg',
-          link: '/',
-          name: 'Sasha',
-          rating: 5,
-          distance: 0.5,
-          id: 4
-        }
-      ]
-    }
   }
 }
 </script>
